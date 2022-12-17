@@ -3,7 +3,6 @@ function reverseArray(arr, start, end){
         var temp = arr[start];
         arr[start] = arr[end];
         arr[end] = temp;
-        console.log(arr)
         start++;
         end--;
     }
@@ -25,7 +24,7 @@ function leftRotate(arr, d, n){
 
 function printArr(size){
     for (i = 0; i < size; i++){
-        console.log(arr[i])
+        console.log(arr[i]);
     }
 }
 
@@ -33,5 +32,5 @@ let arr = [ 1, 2, 3, 4, 5, 6, 7 ];
 let n = arr.length;
 let d = 2; //number of times rotating the array
 
-leftRotate(arr, d, n)
-printArr(n)
+leftRotate(arr, d, n);
+printArr(n);
