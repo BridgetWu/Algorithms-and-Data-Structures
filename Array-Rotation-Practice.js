@@ -6,15 +6,12 @@ function arrayRotation (arr, d, n){
         temp[k] = arr[i];
         k++;
     }
-    console.log(arr)
-    console.log(temp)
 
     for (let i = 0; i < d; i++) {
         temp[k] = arr[i];
         k++;
     }
-    console.log(arr)
-    console.log(temp)
+    console.log(temp);
 }
 
 let arr = [ 1, 2, 3, 4, 5, 6, 7 ];
