@@ -1,2 +1,2 @@
 # Algorithms-and-Data-Structures
-A folder which contains my practices
+A folder which contains my practices using Javascript
