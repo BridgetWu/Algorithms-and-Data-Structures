@@ -9,8 +9,6 @@ class Query{
 function printQuerySums(a, n , q, m){
     for (let i = 0; i < m; i++){
         let L = q[i].L, R = q[i].R;
-        console.log(L);
-        console.log(R);
 
         let sum = 0;
         for (let j = L; j <= R; j++){
